@@ -82,7 +82,7 @@ $ cd liteApp
 
 ## Performance Test
 
-`LiteApp VS H5 App 结果：首次加载时间减少70%，页面切换时60 FPS`
+`LiteApp VS H5 App Results：70% reduction in first load time，Switch Page is 60 FPS`
 
 | Project   | Loading Time/ms |         Switch Page/fps          |
 | :-------- | :-------------: | :------------------------------: |
