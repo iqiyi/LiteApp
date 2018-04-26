@@ -74,10 +74,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #
     background: rgba(0, 0, 0, 0.2);
 } 
 
-html,body,#page{
+/*html,body,#page{
     width:100%;
     height:100%;
-}
+}*/
 html {
   font-size:10px;
   font-size: 2.666666667vw;

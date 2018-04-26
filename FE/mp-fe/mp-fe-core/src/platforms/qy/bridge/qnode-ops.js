@@ -1,6 +1,25 @@
+/**
+ *
+ * Copyright 2018 iQIYI.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+
 /* @flow */
 
-import { saveEvent } from './bridge-event';
+import * as qnodeEvent from './bridge-event';
 import { addDirect } from './bridge-patch';
 import { isDef, isUndef } from 'core/util/index';
 
@@ -104,7 +123,7 @@ export function setStyle( qnode , style ){
 }
 export function addEvent( qnode , event , handler ){
     
-    saveEvent( qnode._uid , event , handler );
+    qnodeEvent.saveEvent( qnode._uid , event , handler );
 
     addDirect( 'attr' , 'addEvent' , {
         _uid : qnode._uid,
@@ -114,7 +133,7 @@ export function addEvent( qnode , event , handler ){
 
 export function removeEvent( qnode , event , handler , capture , passive ){
     
-    removeEvent( qnode._uid , event );
+    qnodeEvent.removeEvent( qnode._uid , event );
 
     addDirect( 'attr' , 'removeEvent' , {
         _uid : qnode._uid,

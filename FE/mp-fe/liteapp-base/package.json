@@ -1,6 +1,6 @@
 {
   "name": "@iqiyi/liteapp-base",
-  "version": "0.0.1",
+  "version": "0.0.26",
   "description": "liteApp base project",
   "main": "index.js",
   "scripts": {

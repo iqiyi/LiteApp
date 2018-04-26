@@ -1,6 +1,6 @@
 {
     "name": "@iqiyi/liteapp-cli",
-    "version": "0.0.4",
+    "version": "0.0.16",
     "description": "cli for mp-fe",
     "main": "index.js",
     "scripts": {
@@ -23,19 +23,24 @@
         "cli-color": "^1.2.0",
         "copy-webpack-plugin": "^4.5.1",
         "css-loader": "^0.28.11",
-        "extract-text-webpack-plugin": "^3.0.2",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
         "file-loader": "^1.1.11",
         "fs-extra": "^5.0.0",
+        "gulp": "^3.9.1",
+        "gulp-scp2": "^0.2.0",
+        "gulp-zip": "^4.1.0",
         "html-webpack-plugin": "^3.1.0",
         "minimist": "^1.2.0",
         "node-sass": "^4.8.3",
         "sass-loader": "^6.0.7",
+        "scp2": "^0.5.0",
         "uglifyjs-webpack-plugin": "^1.2.4",
+        "uri-js": "^4.2.0",
         "vue": "^2.5.16",
         "vue-loader": "^14.2.1",
         "vue-style-loader": "^4.1.0",
         "vue-template-compiler": "^2.5.16",
-        "webpack": "^3.4.1",
+        "webpack": "^4.5.0",
         "webpack-dev-server": "^2.11.1"
     }
 }

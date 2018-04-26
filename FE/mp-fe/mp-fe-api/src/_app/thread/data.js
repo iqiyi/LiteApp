@@ -1,18 +1,29 @@
+/**
+ *
+ * Copyright 2018 iQIYI.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+
 import { isUndef } from '../../util/index';
 
 export function getAppData(){
-  if( typeof baselineInfo === 'undefined' || typeof userInfo === 'undefined' ){
-    console.log('[thread api getAppData] no baselineInfo or userInfo,try __app__data')
     if(typeof __app__data !== 'undefined'){
-      console.log('[thread api getAppData]' + JSON.stringify(__app__data))
-      return __app__data;
+        console.log('[thread api getAppData]' + JSON.stringify(__app__data))
+        return __app__data;
     }else{
-      throw new Error('[thread api getAppData] no __app__data')
+        throw new Error('[thread api getAppData] no __app__data')
     }
-  }else{
-    console.log('[thread api getAppData]' + JSON.stringify({baselineInfo,userInfo}))
-    return {
-      baselineInfo,userInfo
-    }
-  }
 }

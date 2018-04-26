@@ -22,12 +22,12 @@
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.9.0",
+    "node-sass": "^4.8.3",
     "sass-loader": "^6.0.6",
     "vue-loader": "^13.5.0",
     "vue-style-loader": "^3.0.3",
     "vue-template-compiler": "^2.5.3",
-    "webpack": "^3.4.1",
-    "node-sass": "^4.6.1"
+    "webpack": "^3.4.1"
   },
   "devDependencies": {
     "swiped": "^0.1.4",
