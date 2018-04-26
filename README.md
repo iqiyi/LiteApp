@@ -61,9 +61,9 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 
 ## How To Get Started
 
-- [Download LiteApp](http://10.110.86.160/mc-web-panel/sto/iOS-lite-app.zip) and try out the included Mac and iPhone example apps
-- Read the ["Getting Started" guide](https://github.com/iqiyi/LiteApp/wiki/Communication/iOS-README), or [other articles on the Wiki](https://github.com/iqiyi/LiteApp/wiki/home)
-- Check out the [documentation](https://github.com/iqiyi/LiteApp/wiki/doucument) for a comprehensive look at all of the APIs available in LiteApp
+- [Download LiteApp](https://github.com/iqiyi/LiteApp/wiki/common-Download-LiteApp) and try out the included Mac and iPhone example apps
+- Read the ["Getting Started" guide](https://github.com/iqiyi/LiteApp/wiki/common-How-To-Get-Started), or [other articles on the Wiki](https://github.com/iqiyi/LiteApp/wiki/home)
+- Check out the [documentation](https://github.com/iqiyi/LiteApp/wiki/common-Documents) for a comprehensive look at all of the APIs available in LiteApp
 
 ## Installation
 
