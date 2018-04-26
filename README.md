@@ -27,7 +27,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 `系统架构图`
 
 <div align=center>
-<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/Architecture.png" alt="Architecture"/>
+<img src="https://github.com/iqiyi/LiteApp/blob/master/Images/Architecture.png?raw=true" alt="Architecture"/>
 </div>`
 
 ## 
@@ -38,7 +38,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 
 > <div align=center>
 >
-> <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/iOS_Video.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
+> <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/iOS_Video.gif?raw=true" width = "300" height = "300*16/9"  alt="iOS Demo"/>
 >
 > </div>`
 
@@ -46,7 +46,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 
 <div align=center>
 
-<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/Andriod_Video.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
+<img src="https://github.com/iqiyi/LiteApp/blob/master/Images/Andriod_Video.gif?raw=true" width = "300" height = "300*16/9" alt="Android Demo"/>
 </div>`
 
 ## Features
@@ -62,8 +62,8 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 ## How To Get Started
 
 - [Download LiteApp](http://10.110.86.160/mc-web-panel/sto/iOS-lite-app.zip) and try out the included Mac and iPhone example apps
-- Read the ["Getting Started" guide](http://gitlab.qiyi.domain/cross-team/lite-app/wikis/iOS-README), or [other articles on the Wiki](http://gitlab.qiyi.domain/cross-team/lite-app/wikis/home)
-- Check out the [documentation](http://gitlab.qiyi.domain/cross-team/lite-app/wikis/home) for a comprehensive look at all of the APIs available in LiteApp
+- Read the ["Getting Started" guide](https://github.com/iqiyi/LiteApp/wiki/Communication/iOS-README), or [other articles on the Wiki](https://github.com/iqiyi/LiteApp/wiki/home)
+- Check out the [documentation](https://github.com/iqiyi/LiteApp/wiki/doucument) for a comprehensive look at all of the APIs available in LiteApp
 
 ## Installation
 
@@ -93,7 +93,7 @@ $ cd liteApp
 
 > <div align=center>
 >
-> <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/liteApp.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
+> <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/liteApp.gif?raw=true" width = "300" height = "300*16/9"  alt="iOS Demo"/>
 >
 > </div>`
 
@@ -101,22 +101,22 @@ $ cd liteApp
 
 <div align=center>
 
-<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/html5.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
+<img src="https://github.com/iqiyi/LiteApp/blob/master/Images/html5.gif?raw=true" width = "300" height = "300*16/9" alt="Android Demo"/>
 </div>`
 
 ## 
 
 ## Credits
 
-LiteApp was originally created by [Guodong Chen]()  [Chen Zhang]()  [Jingyuan Zhou]()   [Yanqiang Zhang](https://github.com/Richard-zhang-iOS) .
+LiteApp was originally created by [Guodong Chen](www.breakerror.com)  [Chen Zhang](https://github.com/zhch0633)  [Jingyuan Zhou](https://github.com/pricelesss)   [Yanqiang Zhang](https://github.com/Richard-zhang-iOS) .
 
-LiteApp's logo was designed by [Guodong Chen]()
+LiteApp's logo was designed by [Guodong Chen](www.breakerror.com)
 
 And most of all, thanks to LiteApp's Contributors
 
 ### Security Disclosure
 
-If you believe you have identified a security vulnerability with LiteApp, you can contact  [Guodong Chen]() as soon as possible. Please do not post it to a public issue tracker.
+If you believe you have identified a security vulnerability with LiteApp, you can contact  [Guodong Chen](www.breakerror.com) as soon as possible. Please do not post it to a public issue tracker.
 
 ## License
 
