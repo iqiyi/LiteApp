@@ -1,7 +1,7 @@
 # Introduction
 
 <p align="center" >
-  <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/logo.png" alt="LiteApp" title="LiteApp">
+  <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/logo.png?raw=true" alt="LiteApp" title="LiteApp">
 </p>
 
 **LiteApp is a high performance mobile cross-platform implementation, The realization of cross-platform functionality is base on webview and provides different ideas and solutions for improve webview performance.**
