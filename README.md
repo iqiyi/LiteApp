@@ -1,7 +1,7 @@
 # Introduction
 
 <p align="center" >
-  <img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/logo.png" alt="LiteApp" title="LiteApp">
+  <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/logo.png" alt="LiteApp" title="LiteApp">
 </p>
 
 **LiteApp is a high performance mobile cross-platform implementation, The realization of cross-platform functionality is base on webview and provides different ideas and solutions for improve webview performance.**
@@ -27,7 +27,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 `系统架构图`
 
 <div align=center>
-<img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/Architecture.png" alt="Architecture"/>
+<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/Architecture.png" alt="Architecture"/>
 </div>`
 
 ## 
@@ -38,7 +38,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 
 > <div align=center>
 >
-> <img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/iOS_Video.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
+> <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/iOS_Video.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
 >
 > </div>`
 
@@ -46,7 +46,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 
 <div align=center>
 
-<img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/Andriod_Video.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
+<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/Andriod_Video.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
 </div>`
 
 ## Features
@@ -93,7 +93,7 @@ $ cd liteApp
 
 > <div align=center>
 >
-> <img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/liteApp.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
+> <img src="https://github.com/iqiyi/LiteApp/tree/master/Images/liteApp.gif" width = "300" height = "300*16/9"  alt="iOS Demo"/>
 >
 > </div>`
 
@@ -101,7 +101,7 @@ $ cd liteApp
 
 <div align=center>
 
-<img src="http://gitlab.qiyi.domain/cross-team/lite-app/raw/master/Images/html5.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
+<img src="https://github.com/iqiyi/LiteApp/tree/master/Images/html5.gif" width = "300" height = "300*16/9" alt="Android Demo"/>
 </div>`
 
 ## 
