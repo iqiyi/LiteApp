@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+      <title>this is template</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="./static/reset.css">
+        <link rel="stylesheet" href="./component/component.css">
+        <script>
+          function addCssNative( cssBundlePath ) {
+            var parent = document.getElementsByTagName('head').item(0);
+            var style = document.createElement('link');
+            style.setAttribute('rel','stylesheet');
+            style.setAttribute('href',cssBundlePath)
+            parent.appendChild(style)
+          }
+        </script>
+    </head>
+    <body>
+        <div id="page" class="mp-page">
+        </div>
+        <script src="./core/qy.webview.js" ></script>
+        <script src="./component/component.webview.js" ></script>
+    </body>
+</html>
+
+

@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "transform-object-assign",
+    "transform-object-rest-spread"
+  ],
+  "presets": [
+    [
+      "latest",
+      {
+        "es2015": {
+          "modules": false 
+        }
+      }
+    ]
+  ]
+}
+
+

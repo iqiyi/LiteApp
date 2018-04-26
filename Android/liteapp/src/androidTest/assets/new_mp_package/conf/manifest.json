@@ -1,0 +1,42 @@
+{
+	"verison":"123123-123123",
+	"pages":
+	 [
+		{
+			"name": "group_setting",
+			"path": "/pages/group_setting/" 
+		},
+		{
+			"name": "group_member",
+			"path": "/pages/group_member/"
+		},
+		{
+			"name": "group_qrcode",
+			"path": "/pages/group_qrcode/" 
+		},
+		{
+			"name": "contacts_index",
+			"path": "/pages/contacts_index/" 
+		},
+		{
+			"name": "contacts_newFriend",
+			"path": "/pages/contacts_newFriend/" 
+		}
+	],
+
+	"index": "group_setting",
+	"tabbar": 
+	{
+		"items": 
+		[
+			{
+				"path" : "group_setting",
+				"title": "群设置"
+			},
+			{
+				"path" : "contacts_index",
+				"title": "通讯录"
+			}
+		]
+	}
+}

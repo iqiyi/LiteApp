@@ -1,0 +1,10 @@
+{
+  "pages":
+    [
+      {
+        "name": "video",
+        "path": "/pages/video/" 
+      }
+    ],
+    "index": "video"
+}

@@ -1,0 +1,59 @@
+{
+    "id":"test_app_",
+    "version":2,
+    "pages": [
+        {
+            "name": "page1",
+            "path": "page1/"
+        },                  
+        {
+            "name": "page2",
+            "path": "page2/"
+        },
+        {   
+            "name":"page3",
+            "path":"page3/"
+        }
+    ],video
+    "index":"page1",
+    "window": {
+        "title" : "test app 1",
+        "titleTextColor": "#000000",
+        "backgroundColor": "#000000",
+        "pullrefresh": true,
+        "loadingColor": "#000000"
+    },
+    "tabbar": {
+       "items" :[{
+            "unselectedIcon" : "/icons/450042.png",
+            "selectedIcon" : "/icons/449996.png",
+            "title": "tab1",
+            "titleUnselectedColor" : "#000000",
+            "titleSelectedColor": "#2196F3",
+            "path": "page2"
+        },
+        {
+            "unselectedIcon" : "/icons/450019.png",
+            "selectedIcon" : "/icons/449973.png",
+            "title": "tab2",
+            "titleUnselectedColor" : "#000000",
+            "titleSelectedColor": "#2196F3",
+            "path": "page1"
+        }
+      ]
+    },
+    "permission" :[
+        {
+            "id" : 123,
+            "desc" : ""
+        },
+
+        {
+            "id" : 123,
+            "desc" : ""
+        }
+    ],
+    "service": {
+        "path": ""
+    }
+}

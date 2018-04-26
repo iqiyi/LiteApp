@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+//transform 居中
+@mixin transformMiddle(){
+  position:absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%);
+  transform-origin:50% 50%;
+}
+%transformMiddle{@include transformMiddle()}
+// 单行溢出省略
+@mixin sln(){overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+%sln{@include sln()}

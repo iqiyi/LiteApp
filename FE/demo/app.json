@@ -1,0 +1,57 @@
+{
+    "name" : "iqiyi",
+    "version" : {
+        "business" : "1.0",
+        "base" : "1.1"
+    },
+    "src" : "./src",
+    "res" : "./res",
+    "target" : "./dist",
+    "pages": [
+        {
+            "name": "index",
+            "path": "/entry/index" 
+        },
+        {
+            "name": "category",
+            "path": "/entry/category"
+        },
+        {
+            "name": "search",
+            "path": "/entry/search"
+        },
+        {
+            "name": "video",
+            "path": "/entry/video"
+        },
+        {
+            "name": "user",
+            "path": "/entry/user"
+        }
+    ],
+    "index": "index",
+	"tabbar": {
+		"items": 
+		[
+			{
+				"path" : "index",
+				"unselectedIcon": "/images/tab-home.png",
+				"selectedIcon": "/images/tab-home-selected.png",
+				"title": "首页"
+			},
+			{
+				"path" : "category",
+				"unselectedIcon": "/images/tab-filmLibrary.png",
+				"selectedIcon": "/images/tab-filmLibrary-selected.png",
+				"title": "频道"
+			},
+			{
+				"path" : "user",
+				"unselectedIcon": "/images/tab-my.png",
+				"selectedIcon": "/images/tab-my.png",
+				"title": "我的"
+			}
+		]
+	}
+
+}

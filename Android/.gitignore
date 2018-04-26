@@ -1,0 +1,16 @@
+/*.iml
+*.iml
+local.properties
+/build
+*/build
+.gradle
+*/.gradle
+*/.idea
+.idea
+*/.externalNativeBuild
+demo/src/main/gen/
+j2v8/src/main/gen/
+liteapp/src/androidTest/gen/
+liteapp/src/main/gen/
+.project
+temp.py

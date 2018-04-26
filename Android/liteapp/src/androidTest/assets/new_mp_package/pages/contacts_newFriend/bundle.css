@@ -1,0 +1,72 @@
+
+.avatar {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.friend_cell .com_swiped .content .des {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.friend_cell {
+  position: relative;
+  width: 100%;
+  height: 8rem;
+  line-height: 8rem;
+  overflow: hidden;
+}
+.friend_cell .com_swiped {
+    z-index: 2;
+    height: 100%;
+    position: relative;
+    background: #ffffff;
+    padding: 0 11.1rem 0 7.8rem;
+}
+.friend_cell .com_swiped .avatar {
+      position: absolute;
+      left: 1.6rem;
+      top: 1.5rem;
+      background: #ffffff;
+      width: 5rem;
+      height: 5rem;
+}
+.friend_cell .com_swiped .content {
+      line-height: 3rem;
+      padding-top: 1.4rem;
+}
+.friend_cell .com_swiped .content .name {
+        display: block;
+        font-size: 1.7rem;
+        color: #333333;
+}
+.friend_cell .com_swiped .content .des {
+        display: block;
+        font-size: 1.4rem;
+        color: #999;
+}
+.friend_cell .com_swiped .handler {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-right: 1.6rem;
+}
+.friend_cell .remove_icon {
+    z-index: 1;
+    position: absolute;
+    top: .1rem;
+    right: 0;
+    display: block;
+    width: 8rem;
+    height: 7.8rem;
+    background: #fc3159 url(/res/images/remove_icon@3x.png?f5c3c43528039063519f43ee86800294) no-repeat center;
+    background-size: 50%;
+}

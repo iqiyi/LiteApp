@@ -1,0 +1,6 @@
+{
+    "version":"0.9",
+    "base_version":"1.0",
+    "manifest_url":"/conf/manifest.json",
+    "package" : "/package.zip"
+}

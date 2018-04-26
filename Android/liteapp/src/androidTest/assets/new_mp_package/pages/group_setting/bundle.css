@@ -1,0 +1,196 @@
+
+.container {
+  background: #f5f5f5;
+}
+.container .container_footer {
+    margin-top: .6rem;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    background: #ff2d55;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.im-header {
+  width: 100%;
+  height: 4.4rem;
+  background: #ffffff;
+}
+.im-header .im-header-bar {
+    z-index: 9999;
+    background: #ffffff;
+    width: 100%;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+.im-header .im-header-bar .header-left, .im-header .im-header-bar .header-right {
+      position: absolute;
+      top: 0;
+      width: 4.4rem;
+      height: 4.4rem;
+}
+.im-header .im-header-bar .header-left .header-icon, .im-header .im-header-bar .header-right .header-icon {
+        margin: .7rem 0 0 .7rem;
+        width: 3rem;
+        height: 3rem;
+}
+.im-header .im-header-bar .header-left.header-left, .im-header .im-header-bar .header-right.header-left {
+        left: 0;
+}
+.im-header .im-header-bar .header-left.header-right, .im-header .im-header-bar .header-right.header-right {
+        right: 0;
+}
+.im-header .im-header-bar .header-title {
+      margin: 0 5rem;
+      text-align: center;
+      height: 4.4rem;
+      line-height: 4.4rem;
+      font-size: 1.6rem;
+}
+.fa-icon{display:inline-block;fill:currentColor}.fa-flip-horizontal{transform:scaleX(-1)}.fa-flip-vertical{transform:scaleY(-1)}.fa-spin{animation:fa-spin 1s 0s infinite linear}.fa-inverse{color:#fff}.fa-pulse{animation:fa-spin 1s infinite steps(8)}@keyframes fa-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+.card_member_more {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #999;
+}
+.card_member_more span {
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+.card_member_more i {
+    vertical-align: middle;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+.card_member_more i .member-more-icon {
+      float: right;
+}
+
+.card {
+  background: #ffffff;
+}
+.card-header {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+}
+.card-header .left-icon, .card-header .right-icon {
+    width: 5rem;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card-header .left-icon {
+    float: left;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 1.4rem 1rem 0 1.6rem;
+}
+.card-header .left-label {
+    float: left;
+    font-size: 1.7rem;
+    color: #333333;
+}
+.card-header .left-label-num {
+    float: left;
+    font-size: 1.4rem;
+    color: #999;
+}
+.card-header .right-label {
+    float: right;
+    color: #999;
+    font-size: 1.4rem;
+}
+.card-header .right-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 1.5rem 1.6rem 0 0;
+    float: right;
+    position: relative;
+}
+.card-header .right-icon .right-icon-awesome {
+      float: right;
+      color: #999;
+}
+
+.avatar_list {
+  overflow: hidden;
+}
+.avatar_cell {
+  padding: 1rem;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.avatar_cell:nth-child(n+5) {
+    margin-top: 2rem;
+}
+.avatar_com {
+  margin: 0 auto 2rem;
+}
+
+.avatar {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card_name {
+  margin-top: .6rem;
+}
+
+.card_qrcode {
+  border-top: 1px solid #e7e7e7;
+}
+
+.card_tag {
+  border-top: 1px solid #e7e7e7;
+}
+
+.tag_list {
+  padding: 0 .5rem .5rem;
+}
+.tag_list .tag_style {
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0 0 1rem 1rem;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+.tag_list .tag_style_1 {
+    background: linear-gradient(to right, #3bc0fb, #56d3f6);
+}
+.tag_list .tag_style_2 {
+    background: linear-gradient(to right, #ce76f5, #aba0fb);
+}
+.tag_list .tag_style_3 {
+    background: linear-gradient(to right, #00dda5, #08edab);
+}
+
+.card_des {
+  border-top: 1px solid #e7e7e7;
+}
+.card_des p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #999;
+}

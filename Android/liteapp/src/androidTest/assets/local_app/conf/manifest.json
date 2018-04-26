@@ -1,0 +1,56 @@
+{
+	"verison":"123123-123123",
+	"pages":
+	 [
+		{
+			"name": "index",
+			"path": "/pages/index/" 
+		},
+		{
+			"name": "logo",
+			"path": "/pages/logo/"
+		},
+        {
+            "name": "category",
+            "path": "/pages/category/"
+        },
+        {
+            "name": "search",
+            "path": "/pages/search/"
+        },
+        {
+            "name": "video",
+            "path": "/pages/video/"
+        },
+        {
+            "name": "user",
+            "path": "/pages/user/"
+        }
+	],
+
+	"index": "index",
+	"tabbar": 
+	{
+		"items": 
+		[
+			{
+				"path" : "index",
+				"unselectedIcon": "/res/tab-home.png",
+				"selectedIcon": "/res/tab-home-selected.png",
+				"title": "首页"
+			},
+			{
+				"path" : "category",
+				"unselectedIcon": "/res/tab-filmLibrary.png",
+				"selectedIcon": "/res/tab-filmLibrary-selected.png",
+				"title": "频道"
+			},
+			{
+				"path" : "user",
+				"unselectedIcon": "/res/tab-my.png",
+				"selectedIcon": "/res/tab-my.png",
+				"title": "我的"
+			}
+		]
+	}
+}

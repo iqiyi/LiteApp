@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lite_app_disabled">lite app disabled!</string>
+    <string name="accept">接受</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="go_on">继续</string>
+    <string name="exit">退出</string>
+    <string name="load_interface_error">加载界面出错，请检查您的网络。</string>
+    <string name="get_app_detail_error">can not get app detail from server</string>
+    <string name="options">options</string>
+    <string name="short_cur_create">创建快捷方式</string>
+    <string name="open_in">分享小程序</string>
+    <string name="default_title">爱奇艺</string>
+</resources>

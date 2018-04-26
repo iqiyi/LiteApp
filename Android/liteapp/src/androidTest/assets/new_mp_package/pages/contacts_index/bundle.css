@@ -1,0 +1,51 @@
+
+.avatar {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container > header {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0 1rem;
+}
+.container > header img {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+.container > header span {
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    color: #333333;
+    vertical-align: middle;
+}
+
+.contacts_cell {
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+}
+.contacts_cell .com_avatar {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.6rem;
+    vertical-align: middle;
+}
+.contacts_cell .name {
+    font-size: 1.7rem;
+    color: #333333;
+    margin-left: 1.2rem;
+    vertical-align: middle;
+}

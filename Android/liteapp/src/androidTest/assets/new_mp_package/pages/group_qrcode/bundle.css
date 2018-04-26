@@ -1,0 +1,65 @@
+
+.container .qrcode-wrap .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  background: url(/res/images/qrcode_container_bg.png?881b97d388b6f0b5cdd08a38ad90c965) no-repeat center;
+  background-size: 100% auto;
+}
+.container .qrcode-wrap {
+    position: relative;
+    padding: 5rem 5rem 6rem;
+    margin-top: 5.7rem;
+    background: url(/res/images/qrcode_content_bg.png?b4a148b0cf250c304d897e9a131a0000) no-repeat top;
+    background-size: 100%;
+    text-align: center;
+}
+.container .qrcode-wrap .group_avatar {
+      display: block;
+      width: 7rem;
+      height: 7rem;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin: -3.5rem 0 0 -3.5rem;
+}
+.container .qrcode-wrap .title {
+      font-size: 2rem;
+      color: #333333;
+      font-weight: 600;
+}
+.container .qrcode-wrap .tip {
+      margin-top: 1.4rem;
+      font-size: 1.2rem;
+      color: #999;
+}
+.container .qrcode-wrap .qrcode_content {
+      background: #f5f5f5;
+      margin-top: 2rem;
+      padding: 1.5rem;
+      width: 25rem;
+      height: 25rem;
+      overflow: hidden;
+      border-radius: 4px;
+}
+.container .qrcode-wrap .qrcode_content img {
+        display: block;
+        width: 100%;
+        height: 100%;
+}
+.container .save_btn {
+    margin: 0 auto;
+    width: 30rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 2.5rem;
+    background: #7c55fb;
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-align: center;
+}

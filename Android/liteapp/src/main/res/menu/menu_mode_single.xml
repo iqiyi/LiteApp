@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/single_menu_one"
+        android:title="@string/options"
+        tools:icon="@drawable/images" />
+    <item
+        android:id="@+id/single_menu_two"
+        android:title="@string/options"
+        tools:icon="@drawable/images" />
+    <item
+        android:id="@+id/single_menu_three"
+        android:title="@string/options"
+        tools:icon="@drawable/images" />
+</menu>

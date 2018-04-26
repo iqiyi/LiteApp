@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/lite_app_view_root"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/lite_app_main_view"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lite_app_action_bar_host"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/lite_app_container_fragment"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:name="com.iqiyi.halberd.liteapp.view.LiteAppFragment">
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:elevation="2dp"
+            android:id="@+id/app_fragment_tab_bar"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/fragment_loading_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

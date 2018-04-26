@@ -1,0 +1,29 @@
+{
+  "name": "@iqiyi/liteapp-base",
+  "version": "0.0.1",
+  "description": "liteApp base project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:app": "TARGET=app ENV=development gulp watch",
+    "dev:web": "TARGET=web ENV=development gulp watch",
+    "start": "npm run dev:app & npm run dev:web",
+    "build:app": "TARGET=app ENV=production gulp build",
+    "build:web": "TARGET=web ENV=production gulp build",
+    "build": "npm run build:app && npm run build:web",
+    "deploy": "npm run build && gulp deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-scp2": "^0.2.0",
+    "gulp-zip": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-watch": "^4.3.11",
+    "uglifyjs-webpack-plugin": "^1.1.2"
+  }
+}
