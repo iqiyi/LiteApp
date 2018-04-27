@@ -1,8 +1,8 @@
 {
     "name" : "iqiyi",
     "version" : {
-        "business" : "1.0",
-        "base" : "1.1"
+        "business" : "1.2",
+        "base" : "1.2"
     },
     "src" : "./src",
     "res" : "./res",
@@ -17,12 +17,12 @@
             "path": "/entry/category"
         },
         {
-            "name": "search",
-            "path": "/entry/search"
-        },
-        {
             "name": "video",
             "path": "/entry/video"
+        },
+        {
+            "name": "search",
+            "path": "/entry/search"
         },
         {
             "name": "user",

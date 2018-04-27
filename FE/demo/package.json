@@ -11,7 +11,7 @@
   "author": "zhoujingyuan@qiyi.com",
   "license": "ISC",
   "dependencies": {
-    "@iqiyi/liteapp-base": "^0.0.1",
-    "@iqiyi/liteapp-cli": "^0.0.4"
+    "@iqiyi/liteapp-base": "^0.0.23",
+    "@iqiyi/liteapp-cli": "^0.0.16"
   }
 }
