@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+      <title>this is template</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" charset="utf-8" href="./static/reset.css">
+        <link rel="stylesheet" charset="utf-8" href="./static/weui.min.css">
+        <link rel="stylesheet" charset="utf-8" href="./component/component.css">
+        <script>
+          function addCssNative( cssPath ){
+            var link = document.createElement('link');
+            link.setAttribute('rel','stylesheet');
+            link.setAttribute('href',cssPath);
+            var ref = document.getElementsByTagName('link')[0];
+            document.getElementsByTagName('head')[0].appendChild(link);
+          }
+      </script>
+    </head>
+    <body>
+        <div id="page" class="mp-page">
+        </div>
+        <script src="./core/qy.webview.js" ></script>
+        <script src="./static/api.webview.js" ></script>
+        <script src="./component/component.webview.js" ></script>
+    </body>
+</html>
+
+
