@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo for liteApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-app --config ./app.json --env dev --target web",
+    "build": "lite-app --config ./app.json --env prod --target app"
+  },
+  "author": "zhoujingyuan@qiyi.com",
+  "license": "ISC",
+  "dependencies": {
+    "liteapp-base": "^0.0.1",
+    "liteapp-cli": "^0.0.1"
+  }
+}
