@@ -1,0 +1,31 @@
+
+.footer{ width:100%; height:8.5rem; padding:2.75rem; box-sizing:border-box; text-align:center;
+}
+.footer-logo{display:inline-block; width:10rem; height:3rem;
+}
+
+
+.m-swiperList{
+    position:absolute; left:0; bottom:-1.5rem; z-index:5; width:100%; height:15.5rem;
+}
+
+.m-swiperList_item{
+    display:inline-block; overflow:hidden;
+}
+.m-swiperList_item-wrap{ display:-webkit-box; display:box; width:34.5rem; height:14rem; margin-left:auto; margin-right:auto; padding:2rem; box-sizing:border-box; border-radius:.5rem; text-align:center; background-color:#fff; color:#666; -webkit-box-shadow:0 .2rem 1.2rem rgba(90,90,90,.1); box-shadow:0 .2rem 1.25rem rgba(90,90,90,.1);
+}
+.m-swiperList_cover{float:left; position:relative; width:7.5rem; height:10rem; margin-right:2rem; overflow:hidden;
+}
+.m-swiperList_info{ -webkit-box-flex:1; box-flex:1; font-size:1.5rem; line-height:2.5rem; text-align:left; position:relative;
+}
+.m-swiperList_info-h2{ font-size:1.8rem; color:#333; font-weight:700; display:block; width:20rem; height:2.5rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.m-swiperList_info-p{ display:block; width:21rem; height:2.5rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:1.4rem;
+}
+.m-swiperList_img{width:100%;height:100%;display:block;object-fit:fill;
+}
+
+.c-icon-search-layer img{
+    width:100%;height:100%;
+    display:block;
+}

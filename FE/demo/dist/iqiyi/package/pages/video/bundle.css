@@ -1,0 +1,14 @@
+
+.footer{ width:100%; height:8.5rem; padding:2.75rem; box-sizing:border-box; text-align:center;
+}
+.footer-logo{display:inline-block; width:10rem; height:3rem;
+}
+
+
+.m-scrollList-series{
+    width:100%;height:6.5rem;margin-bottom:1rem;white-space:nowrap;
+    overflow-x:auto;
+}
+
+.m-scrollList{ width:100%; min-height:11.7rem; max-height:13.2rem; display:block; white-space:nowrap; overflow-x : auto;
+}
