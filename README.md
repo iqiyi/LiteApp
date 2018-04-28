@@ -19,7 +19,7 @@ The structure of LiteApp is decoupled, the render engines are separated from the
 | Platform |        System        |       Notes        |
 | :------: | :------------------: | :----------------: |
 |   iOS    |   iOS 9.0 or later   | Xcode 9.0 or later |
-| Andriod  | Andriod 4.0 or later |        n/a         |
+| Android  | Android 4.0 or later |        n/a         |
 |   Web    |         n/a          |        n/a         |
 
 ## Architecture
