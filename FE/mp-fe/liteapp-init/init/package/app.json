@@ -1,0 +1,29 @@
+{
+    "name" : "hello-world",
+    "version" : {
+        "business" : "1.0",
+        "base" : "1.2"
+    },
+    "src" : "./src",
+    "res" : "./res",
+    "target" : "./dist",
+    "pages": [
+        {
+            "name": "index",
+            "path": "/entry/index" 
+        }
+    ],
+    "index": "index",
+	"tabbar": {
+		"items": 
+		[
+			{
+				"path" : "index",
+				"unselectedIcon": "/images/tab-home.png",
+				"selectedIcon": "/images/tab-home-selected.png",
+				"title": "首页"
+			}
+		]
+	}
+
+}

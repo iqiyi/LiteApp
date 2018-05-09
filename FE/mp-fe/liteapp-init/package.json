@@ -1,0 +1,14 @@
+{
+  "name": "liteapp-init",
+  "version": "0.0.1",
+  "description": "init cli for lite-app",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+      "lite-app-init" : "./init.js"
+  },
+  "author": "zhoujingyuan@qiyi.com",
+  "license": "ISC"
+}
