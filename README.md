@@ -8,10 +8,6 @@
 
 `LiteApp` dedicates to enable developers to use modern web development technology to build applications on both Android and iOS with a single codebase. More specifically, you can use javascript and modern front-end framework Vue.js to develop mobile apps by using LiteApp, with which, productivity and performance can coexist ,application you build will be running on web with performance close to native. We achieve this by decoupling the render engine from the syntax layer, see more detail below.
 
-The structure of LiteApp is decoupled, the render engines are separated from the syntax layer. LiteApp rely on [Vue.js](https://vuejs.org/) 
-
-`LiteApp` is developing by [iQiYi ](https://www.iqiyi.com/) *Android architecture* team since June 2017 and After a period of development and testing, we decided to open source the project . Now we are actively using this solution in the company's business. We sincerely invite you to join our project . Welcome to try, report issues and submit pull requests. And pls feel free to contact us through **Github** or **Email**.
-
 ## Requirements
 
 | Platform |        System        |       Notes        |
