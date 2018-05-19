@@ -4,11 +4,9 @@
   <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/logo.png?raw=true" alt="LiteApp" title="LiteApp">
 </p>
 
-**LiteApp is a high performance mobile cross-platform implementation, The realization of cross-platform functionality is base on webview and provides different ideas and solutions for improve webview performance.**
+**LiteApp is a high performance mobile cross-platform framework. The implementation of its cross-platform functionality is based on webview but improved with novel ideas and solutions for better performance.**
 
-`LiteApp` dedicates to enable developers to use modern web development experience to build both Android and iOS  with a single codebase. In practice, you can use javascript and modern front-end frameworks to develop mobile apps by using our project.
-
-`LiteApp` keep up with modern development technologies and platform capabilities both for web and native. Productivity and performance can coexist in LiteApp.in our project developer writing on web but  rendering  is close to rendering native.
+`LiteApp` dedicates to enable developers to use modern web development technology to build applications on both Android and iOS with a single codebase. More specifically, you can use javascript and modern front-end framework Vue.js to develop mobile apps by using LiteApp, with which, productivity and performance can coexist ,application you build will be running on web with performance close to native. We achieve this by decoupling the render engine from the syntax layer, see more detail below.
 
 The structure of LiteApp is decoupled, the render engines are separated from the syntax layer. LiteApp rely on [Vue.js](https://vuejs.org/) 
 
