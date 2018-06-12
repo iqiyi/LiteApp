@@ -23,7 +23,7 @@ const sep = path.sep;
 const child_process = require('child_process');
 
 function copyDir(src, dist) {
-    child_process.spawn('cp', ['-r', src, dist]);	
+    child_process.exec(`cp -r ${src} ${dist}`);	
 }
 
 // from & to
