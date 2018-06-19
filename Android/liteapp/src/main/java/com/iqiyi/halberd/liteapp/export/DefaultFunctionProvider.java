@@ -32,6 +32,7 @@ import com.iqiyi.halberd.liteapp.event.BridgeEvent;
 import com.iqiyi.halberd.liteapp.event.IBridgeEventListener;
 import com.iqiyi.halberd.liteapp.event.impl.EventBridgeImpl;
 import com.iqiyi.halberd.liteapp.plugin.network.impl.LiteAppNetworkRequest;
+import com.iqiyi.halberd.liteapp.utils.MD5Utils;
 import com.iqiyi.halberd.liteapp.view.LiteAppBaseActivity;
 
 import org.json.JSONException;
@@ -282,5 +283,20 @@ public class DefaultFunctionProvider implements LiteAppContextInitProvider {
         };
         ExecutorManager.addObjectToObject(context, base, "start", pageRouter);
 
+        //using this md5 utils will work around x86 crash on javascript md5
+        final JsObject md5 = new JsObject() {
+            protected long onCalled(NativeObjectRef[] callbackHandles, String[] parameters) {
+                if(TextUtils.isEmpty(parameters[0])) {
+                    return 0;
+                } else if(callbackHandles.length < 2) {
+                    return 0;
+                } else {
+                    String mdResult = MD5Utils.md5(parameters[0]);
+                    ExecutorManager.callNativeRefFunction(context, callbackHandles[1], mdResult);
+                }
+                return 0;
+            }
+        };
+        ExecutorManager.addObjectToGlobal(context, "mi_pad__md5__", md5);
     }
 }
