@@ -4,22 +4,16 @@
   <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/logo.png?raw=true" alt="LiteApp" title="LiteApp">
 </p>
 
-**LiteApp is a high performance mobile cross-platform implementation, The realization of cross-platform functionality is base on webview and provides different ideas and solutions for improve webview performance.**
+**LiteApp is a high performance mobile cross-platform framework. The implementation of its cross-platform functionality is based on webview but improved with novel ideas and solutions for better performance.**
 
-`LiteApp` dedicates to enable developers to use modern web development experience to build both Android and iOS  with a single codebase. In practice, you can use javascript and modern front-end frameworks to develop mobile apps by using our project.
-
-`LiteApp` keep up with modern development technologies and platform capabilities both for web and native. Productivity and performance can coexist in LiteApp.in our project developer writing on web but  rendering  is close to rendering native.
-
-The structure of LiteApp is decoupled, the render engines are separated from the syntax layer. LiteApp rely on [Vue.js](https://vuejs.org/) 
-
-`LiteApp` is developing by [iQiYi ](https://www.iqiyi.com/) *Android architecture* team since June 2017 and After a period of development and testing, we decided to open source the project . Now we are actively using this solution in the company's business. We sincerely invite you to join our project . Welcome to try, report issues and submit pull requests. And pls feel free to contact us through **Github** or **Email**.
+`LiteApp` dedicates to enable developers to use modern web development technology to build applications on both Android and iOS with a single codebase. More specifically, you can use javascript and modern front-end framework Vue.js to develop mobile apps by using LiteApp, with which, productivity and performance can coexist ,application you build will be running on web with performance close to native. We achieve this by decoupling the render engine from the syntax layer, see more detail below.
 
 ## Requirements
 
 | Platform |        System        |       Notes        |
 | :------: | :------------------: | :----------------: |
 |   iOS    |   iOS 9.0 or later   | Xcode 9.0 or later |
-| Andriod  | Andriod 4.0 or later |        n/a         |
+| Android  | Android 4.0 or later |        n/a         |
 |   Web    |         n/a          |        n/a         |
 
 ## Architecture

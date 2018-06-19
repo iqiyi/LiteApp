@@ -41,9 +41,11 @@ fs.readJson(argv.config).then(config => {
             require('./version')(argv,config),
             require('./bundle')(argv, config)
         ]).then(result => {
-            require('./zip_build')(argv,config).then(
-                require('./deploy').bind(this,argv,config)
-            ).then(()=>{
+          require('./zip_build')(argv,config).then(() => {
+            if(!!argv.deploy){
+              require('./deploy').call(this,argv,config)
+            }
+          }).then(()=>{
                 console.log(clc.red('[cli finished]'));
             })
         })
