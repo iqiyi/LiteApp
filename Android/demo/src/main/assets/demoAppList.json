@@ -10,6 +10,11 @@
       "id":"iqiyi",
       "name":"iqiyi",
       "version":"1.1"
+    },
+    {
+      "id":"hello-world",
+      "name":"hello-world",
+      "version":"1.2"
     }
   ]
 }

@@ -588,7 +588,7 @@ public class LiteAppFragmentActivity extends LiteAppBaseActivity{
                         ((LiteAppFragment)fragmentManager.findFragmentByTag(oldFragmentTag)).onPagePause();
                         fragment.setPreFragment(fragmentManager.findFragmentByTag(oldFragmentTag));
 
-                        tabBarView.postDelayed(new Runnable() {
+                        liteAppMainView.postDelayed(new Runnable() {
                             @Override
                             public void run() {
                                 transaction.commit();
