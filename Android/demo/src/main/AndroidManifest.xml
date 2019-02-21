@@ -24,6 +24,10 @@
             </intent-filter>
         </activity>
         <activity
+                android:name=".ShowActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait" />
+        <activity
             android:name=".LiteAppListActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />

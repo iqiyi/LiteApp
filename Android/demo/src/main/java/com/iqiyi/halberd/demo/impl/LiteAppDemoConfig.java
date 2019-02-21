@@ -20,6 +20,8 @@ package com.iqiyi.halberd.demo.impl;
 import android.content.Context;
 import android.util.Log;
 
+import com.iqiyi.halberd.demo.ShowActivity;
+import com.iqiyi.halberd.demo.ShowPlugin;
 import com.iqiyi.halberd.demo.impl.manager.LiteAppPackageProviderImpl;
 import com.iqiyi.halberd.liteapp.api.LiteAppGlobalConfig;
 import com.iqiyi.halberd.liteapp.api.provider.LiteAppLoadingViewProvider;
@@ -34,7 +36,9 @@ import com.iqiyi.halberd.liteapp.context.LiteAppContext;
 import com.iqiyi.halberd.liteapp.context.LiteAppFactory;
 import com.iqiyi.halberd.liteapp.export.DefaultFunctionProvider;
 import com.iqiyi.halberd.demo.impl.manager.LiteAppMirrorPackageLoader;
+import com.iqiyi.halberd.liteapp.plugin.PagePluginManager;
 import com.iqiyi.halberd.liteapp.plugin.appdata.AppDataPlugin;
+import com.iqiyi.halberd.liteapp.plugin.fs.PageApiPlugin;
 import com.iqiyi.halberd.liteapp.plugin.loading.LoadingPlugin;
 import com.iqiyi.halberd.liteapp.plugin.network.NetworkPlugin;
 import com.iqiyi.halberd.liteapp.plugin.router.PageRouterPlugin;
@@ -94,6 +98,8 @@ public class LiteAppDemoConfig {
                 new SharePlugin().attach();
                 new SetTitlePlugin().attach();
                 new LoadingPlugin().attach();
+                PagePluginManager.registPagePlugin(PageApiPlugin.class);
+                PagePluginManager.registPagePlugin(ShowPlugin.class);
             }
         }
     }
