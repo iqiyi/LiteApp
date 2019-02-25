@@ -39,6 +39,8 @@ import com.iqiyi.halberd.liteapp.api.provider.LiteAppPackageProvider;
 import com.iqiyi.halberd.liteapp.common.LiteAppException;
 import com.iqiyi.halberd.liteapp.context.LiteAppContext;
 import com.iqiyi.halberd.liteapp.context.LiteAppFactory;
+import com.iqiyi.halberd.liteapp.event.BridgeEvent;
+import com.iqiyi.halberd.liteapp.event.impl.EventBridgeImpl;
 import com.iqiyi.halberd.liteapp.manager.impl.LiteAppDetail;
 import com.iqiyi.halberd.liteapp.utils.ColorUtils;
 import com.iqiyi.halberd.liteapp.utils.DisplayUtils;
@@ -53,7 +55,10 @@ import org.json.JSONObject;
 
 import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by eggizhang@qiyi.com on 2017/7/25.
@@ -588,7 +593,7 @@ public class LiteAppFragmentActivity extends LiteAppBaseActivity{
                         ((LiteAppFragment)fragmentManager.findFragmentByTag(oldFragmentTag)).onPagePause();
                         fragment.setPreFragment(fragmentManager.findFragmentByTag(oldFragmentTag));
 
-                        tabBarView.postDelayed(new Runnable() {
+                        liteAppMainView.postDelayed(new Runnable() {
                             @Override
                             public void run() {
                                 transaction.commit();
@@ -653,6 +658,37 @@ public class LiteAppFragmentActivity extends LiteAppBaseActivity{
             }
         }
         return null;
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        BridgeEvent event = new BridgeEvent();
+        event.setType("onPageResult_js");
+
+        event.setIntercepted(false);
+        event.setLocal(false);
+
+        HashMap<String,Object> params=new HashMap<>();
+        params.put("requestCode",requestCode);
+        params.put("resultCode",resultCode);
+        Bundle b=null;
+        if(data!=null){
+            b=data.getExtras();
+        }
+        if (b!=null){
+            Map<String,Object> dataForJs=new HashMap<>();
+            Set<String> keys=b.keySet();
+            for (String key :
+                    keys) {
+                dataForJs.put(key, b.get(key));
+            }
+            params.put("data",dataForJs);
+        }
+        event.setData(new JSONObject(params).toString());
+
+        EventBridgeImpl.getInstance().triggerEvent(event);
     }
 
 }

@@ -41,7 +41,11 @@ public class DisplayUtils {
         return containerHeight;
     }
     public static int getNoTabBarHeight(Context context){
-        return tabBarHeight;
+//        return tabBarHeight;
+        if(metrics == null){
+            metrics = context.getResources().getDisplayMetrics();
+        }
+        return metrics.heightPixels;
     }
 
     /**

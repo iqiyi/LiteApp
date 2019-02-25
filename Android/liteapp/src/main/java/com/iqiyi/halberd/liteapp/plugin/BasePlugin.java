@@ -41,7 +41,7 @@ public abstract class BasePlugin implements IBridgeEventListener, LiteAppContext
         //do noting by default
     }
 
-    public final void attach() {
+    public void attach() {
         LiteAppContextInitManager.addLiteAppContextInitProvider(this);
 
         IEventBridge mBridge = EventBridgeImpl.getInstance();

@@ -10,6 +10,17 @@
       "id":"iqiyi",
       "name":"iqiyi",
       "version":"1.1"
+    },
+
+    {
+      "id":"hello-world",
+      "name":"hello-world",
+      "version":"1.2"
+    },
+    {
+      "id":"liteapp-demo",
+      "name":"liteapp-demo",
+      "version":"1.2"
     }
   ]
 }

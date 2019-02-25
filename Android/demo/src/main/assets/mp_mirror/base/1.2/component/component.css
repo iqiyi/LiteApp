@@ -1,0 +1,119 @@
+
+.qy-input{
+  display : block;
+  height : 1.4rem;
+  text-overflow : clip;
+  overflow : hidden;
+  white-space : nowrap;
+  font-family : UICTFontTextStyleBody;
+  min-height : 1.4rem;
+  border:0;
+  background-color:initial;
+}
+
+.qy-video{
+  background-color : #000000;
+}
+
+.mp-actionsheet {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.qy-listview .center_tip {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+}
+.qy-listview .qy-listview-block_index_list {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.qy-listview .qy-listview-block_index_list li {
+    padding: .4rem 1rem;
+}
+.qy-listview .center_tip {
+  display: none;
+  position: fixed;
+  width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.qy-list_block header {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 1.6rem;
+  background: #f5f5f5;
+  font-size: 1.6rem;
+  color: #666;
+}
+
+.qy-scrollview{
+  width:100%;
+  height:100%;
+  whiteSpace: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!
+ * iswiper - swiper.js
+ * @version v1.4.1
+ * @link https://github.com/weui/swiper.git
+ * @license MIT
+ */
+.qy-swiper{
+    overflow:hidden;
+}
+.swiper {
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item {
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.item.active .animated {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  opacity: 1;
+}
+.item:not(.active) .animated {
+  -webkit-animation: none;
+          animation: none;
+  opacity: 0;
+}
+

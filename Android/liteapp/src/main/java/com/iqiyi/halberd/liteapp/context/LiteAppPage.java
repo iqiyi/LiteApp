@@ -45,6 +45,12 @@ public class LiteAppPage extends LiteAppContext{
      * */
     private ILiteAppContainer container;
 
+    Context currentContext;
+
+    public Context getCurrentContext(){
+        return currentContext;
+    }
+
     public static int type = CONTEXT_TYPE_PAGE;
 
     public int getType(){

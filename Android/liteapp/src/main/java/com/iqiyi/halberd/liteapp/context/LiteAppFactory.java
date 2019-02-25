@@ -24,6 +24,7 @@ import android.util.Log;
 
 import com.iqiyi.halberd.liteapp.common.LiteAppException;
 import com.iqiyi.halberd.liteapp.manager.impl.LiteAppDetail;
+import com.iqiyi.halberd.liteapp.plugin.PagePluginManager;
 import com.iqiyi.halberd.liteapp.utils.LogUtils;
 import com.iqiyi.halberd.liteapp.view.LiteAppBaseActivity;
 import com.iqiyi.halberd.liteapp.view.impl.WebViewLiteAppContainer;
@@ -132,6 +133,8 @@ public class LiteAppFactory {
         }
 
         LiteAppPage page = cache.pop();
+        page.currentContext=context;
+        PagePluginManager.initPagePlugin(page);
         page.getContainer().getView().postDelayed(new Runnable() {
             @Override
             public void run() {
