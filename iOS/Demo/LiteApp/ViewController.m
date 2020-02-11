@@ -21,19 +21,12 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    _asset =[[QIYIAssetsImpl alloc] init];
+    _asset = [[QIYIAssetsImpl alloc] init];
     _delegateImpl = [[QIYIDelegateImpl alloc] init];
-    QIYIMPViewNavController* vc = [QIYIMPViewNavController alloc];
-    vc = [vc init:_asset delegate:_delegateImpl];
-    [self presentViewController:vc animated:YES completion:^{
-    }];
+    QIYIMPViewNavController *viewController = [QIYIMPViewNavController alloc];
+    viewController = [viewController init:_asset delegate:_delegateImpl];
+    viewController.modalPresentationStyle =  UIModalPresentationOverFullScreen;
+    [self presentViewController:viewController animated:YES completion:nil];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
