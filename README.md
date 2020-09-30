@@ -1,4 +1,4 @@
-# Introduction
+# Introduction our app
 
 <p align="center" >
   <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/logo.png?raw=true" alt="LiteApp" title="LiteApp">
