@@ -34,7 +34,7 @@ npm i --save @iqiyi/liteapp-base@0.0.1 @iqiyi/liteapp-cli@^0.0.1
 ```
 
 #### 查看页面 ： 
-https://locahost:8080/pages/${bundleName}/web.html
+http://localhost:8080/pages/${bundleName}/web.html
 
 ---
 
